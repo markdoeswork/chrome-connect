@@ -1,0 +1,13 @@
+{
+  "name" : "Power-Connect-Helper",
+  "version" : "0.0.1",
+  "manifest_version" : 3,
+  "description" : "This is to help me see things in connect good",
+  "content_scripts" : [
+    {
+      "matches" : ["https://nitro.powerhrg.com/connect*"],
+      "css" : ["init.css"],
+      "js" : ["init.js"]
+    }
+  ]
+}
