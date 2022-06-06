@@ -6,7 +6,6 @@
   "content_scripts" : [
     {
       "matches" : ["https://nitro.powerhrg.com/connect*"],
-      "css" : ["init.css"],
       "js" : ["init.js"]
     }
   ]

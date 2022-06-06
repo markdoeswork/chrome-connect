@@ -6,7 +6,7 @@ var styles = `
         min-height: 0px;
 	padding: 0px;
 }
-.event-bookmark {
+.eevent-bookmark {
         display: none;
 }`
 
@@ -17,7 +17,7 @@ document.head.appendChild(styleSheet)
 const rooms = document.getElementsByClassName("bookmarks-subheader")[0];
 
 const expander = document.createElement('a');
+         rooms.insertAdjacentHTML("afterbegin", '<div class="textclass" style="display:flex">');
 
-         rooms.insertAdjacentHTML("afterend", '<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet"> <style> i {color: #669FAB;font-size: 34px !important; /* 24px preferred icon size */}</style><i class="material-icons">expand_more</i>');
 
-rooms.appendChild(expander);
+ rooms.insertAdjacentHTML("afterend", '<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet"> <style> i {color: #669FAB;font-size: 34px !important; /* 24px preferred icon size */}</style><i class="material-icons">expand_more</i></div>');
